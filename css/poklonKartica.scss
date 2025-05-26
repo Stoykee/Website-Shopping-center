@@ -1,0 +1,137 @@
+$color_1: black;
+$color_2: #323232;
+$color_3: #e8bcb9;
+$color_4: white;
+$color_5: #1d1a39;
+$color_6: #fff;
+$color_7: #000000;
+$color_8: #424242;
+$color_9: #F39F2A;
+$color_10: #ae445a;
+$color_11: #662549;
+$color_12: #451952;
+$color_13: #1d1a39;
+$background-color_1: #fff;
+$background-color_2: #f39f5a;
+$background-color_3: #f5af5e;
+$background-color_4: transparent;
+$background-color_5: #5A3161;
+$background-color_6: #1d1a39;
+
+body{
+    background-image: linear-gradient($color_3,$color_9,$color_10,$color_11,$color_12,$color_13);
+}
+
+.container {
+	margin: 0 auto;
+	width: 950px;
+}
+
+
+
+ul.navbar-nav {
+	>li {
+		>a {
+			letter-spacing: 0.2rem;
+			text-transform: uppercase;
+		}
+	}
+	>li.nav-item.dropdown {
+		>.dropdown-menu {
+			>li {
+				>a {
+					letter-spacing: 0.15rem;
+				}
+			}
+		}
+	}
+}
+.navbar {
+	background-color: $background-color_2 !important;
+}
+section {
+	margin-top: 2rem;
+}
+.list-unstyled {
+	li.bottom-border-red {
+		padding: 1.5rem;
+		border-bottom: 1px solid #000000;
+	}
+	li {
+		a {
+			text-decoration: none;
+			color: $color_1;
+			&:hover {
+				color: $color_2;
+			}
+		}
+	}
+}
+.my-unstyled-list {
+	list-style: none;
+}
+.primarna-boja-slova {
+	.primarna-boja-slova {
+		a {
+			color: $color_3 !important;
+		}
+	}
+}
+.active {
+	background-color: $background-color_3 !important;
+	border-radius: 0.33rem !important;
+	&:hover {
+		background-color: $background-color_4 !important;
+	}
+}
+.social-icon {
+	&:hover {
+		background-color: $background-color_5 !important;
+		border-radius: 50% !important;
+	}
+}
+input {
+	box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 25);
+}
+/*Footer*/
+.primarna-pozadina-footer {
+	background-color: $background-color_6 !important;
+}
+footer {
+	li {
+		a {
+			color: $color_4 !important;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+			letter-spacing: 0.2rem;
+			padding: 0.2rem;
+			transition: color 0.4s ease-in;
+		}
+	}
+	a {
+		&:hover {
+			background-color: $background-color_3 !important;
+			color: $color_5 !important;
+			border-radius: 0.33rem !important;
+			transition: 1s;
+		}
+		color: $color_4;
+		text-align: center;
+		letter-spacing: 0.2rem;
+		text-transform: uppercase;
+	}
+	p {
+		color: $color_4;
+		text-align: center;
+		letter-spacing: 0.2rem;
+		text-transform: uppercase;
+	}
+	text-align: center !important;
+	flex-shrink: 0;
+	margin-top: auto;
+	ul {
+		text-align: center;
+	}
+}
+/*ZAVRSETAK CSS ZA FOOTER*/

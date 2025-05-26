@@ -1,0 +1,225 @@
+.body-za-boju {
+  background-color: #fff !important;
+}
+
+body {
+  height: 1950px !important;
+  background-image: linear-gradient(#e8bcb9, #F39F2A, #ae445a, #662549, #451952, #1d1a39);
+}
+
+ul.navbar-nav > li > a {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+ul.navbar-nav > li.nav-item.dropdown > .dropdown-menu > li > a {
+  letter-spacing: 0.15rem;
+}
+
+.navbar {
+  background-color: #f39f5a !important;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+.list-unstyled li.bottom-border-red {
+  padding: 1.5rem;
+  border-bottom: 1px solid #000000;
+}
+.list-unstyled li a {
+  text-decoration: none;
+  color: black;
+}
+.list-unstyled li a:hover {
+  color: #323232;
+}
+
+.my-unstyled-list {
+  list-style: none;
+}
+
+.primarna-boja-slova .primarna-boja-slova a {
+  color: #e8bcb9 !important;
+}
+
+.active {
+  background-color: #f5af5e !important;
+  border-radius: 0.33rem !important;
+}
+.active:hover {
+  background-color: transparent !important;
+}
+
+.social-icon:hover {
+  background-color: #5A3161 !important;
+  border-radius: 50% !important;
+}
+
+input {
+  box-shadow: 0 0 0 0.25rem rgb(13, 110, 253);
+}
+
+/*Footer*/
+.primarna-pozadina-footer {
+  background-color: #1d1a39 !important;
+}
+
+footer {
+  text-align: center !important;
+  flex-shrink: 0;
+  margin-top: auto;
+}
+footer li a {
+  color: white !important;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding: 0.2rem;
+  transition: color 0.4s ease-in;
+}
+footer a {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+footer a:hover {
+  background-color: #f5af5e !important;
+  color: #1d1a39 !important;
+  border-radius: 0.33rem !important;
+  transition: 1s;
+}
+footer p {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+footer ul {
+  text-align: center;
+}
+
+/*ZAVRSETAK CSS ZA FOOTER*/
+address a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 950px;
+}
+
+.btn-primary {
+  --bs-btn-color: $color_6;
+  --bs-btn-bg: $color_8;
+  --bs-btn-border-color: $color_8;
+  --bs-btn-hover-color: $color_6;
+  --bs-btn-hover-bg: $color_9;
+  --bs-btn-hover-border-color: $color_9;
+}
+
+.slika {
+  width: 800px;
+  height: 850px;
+}
+
+.okvir-teksta {
+  position: absolute;
+  border-radius: 0.33rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  bottom: 50px;
+  right: 400px;
+  left: 400px;
+  padding: 10px;
+}
+
+.okvir-teksta1 {
+  border-radius: 0.33rem;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  bottom: 50px;
+  right: 400px;
+  left: 350px;
+  padding: 10px;
+}
+
+.stil-slova {
+  text-transform: uppercase;
+}
+
+.slide {
+  width: 1600px;
+  height: 850px;
+  margin-left: 150px;
+}
+
+.okvir-teksta2 {
+  border-radius: 0.33rem;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  bottom: 50px;
+  right: 400px;
+  left: 350px;
+  padding: 10px;
+  width: 250px;
+}
+
+.okvir-teksta3 {
+  border-radius: 0.33rem;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  bottom: 50px;
+  right: 400px;
+  left: 350px;
+  padding: 10px;
+  width: 450px;
+}
+
+.okvir-teksta4 {
+  border-radius: 0.33rem;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  bottom: 50px;
+  right: 400px;
+  left: 350px;
+  padding: 10px;
+  width: 450px;
+}
+
+.logo-onama {
+  border-radius: 0.33rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div button a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.hover1:hover {
+  color: #fff;
+}
+
+.okvir-teksta5 {
+  border-radius: 0.33rem;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  bottom: 50px;
+  right: 400px;
+  left: 350px;
+  padding: 10px;
+  width: 620px;
+  margin-bottom: 10px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.izgledTeksta {
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,70 @@
+body {
+  background-image: linear-gradient(#e8bcb9, #F39F2A, #ae445a, #662549, #451952, #1d1a39);
+  height: 5500px;
+}
+
+.velicina {
+  margin-top: 20px;
+}
+
+/*NAVIGACIONI BAR*/
+ul.navbar-nav > li > a {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+ul.navbar-nav > li.nav-item.dropdown > .dropdown-menu > li > a {
+  letter-spacing: 0.15rem;
+}
+
+.navbar {
+  background-color: #f39f5a !important;
+}
+
+.active {
+  background-color: #f5af5e !important;
+  border-radius: 0.33rem !important;
+}
+
+/*ZAVRSETAK NAVIGACIONOG BARA*/
+/*Footer*/
+.primarna-pozadina-footer {
+  background-color: #1d1a39 !important;
+}
+
+footer {
+  text-align: center !important;
+  flex-shrink: 0;
+  margin-top: auto;
+}
+footer li a {
+  color: white !important;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding: 0.2rem;
+  transition: color 0.4s ease-in;
+}
+footer a {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+footer a:hover {
+  background-color: #f5af5e !important;
+  color: #1d1a39 !important;
+  border-radius: 0.33rem !important;
+  transition: 1s;
+}
+footer p {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+footer ul {
+  text-align: center;
+}
+
+/*ZAVRSETAK CSS ZA FOOTER*//*# sourceMappingURL=prodavnice.css.map */

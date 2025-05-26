@@ -1,0 +1,73 @@
+.body {
+  display: flex;
+  padding: 0 35px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  margin-left: 325px;
+  max-width: 1200px;
+  position: relative;
+}
+.wrapper i {
+  top: 70%;
+  background: #fff;
+  height: 46px;
+  width: 46px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 3rem;
+  transform: translateY(-50%);
+}
+.wrapper i:first-child {
+  left: -23px;
+  display: none;
+}
+.wrapper i:last-child {
+  right: -23px;
+}
+.wrapper .carousel1 {
+  white-space: nowrap;
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.wrapper .carousel1 .dragging {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+.wrapper .carousel1 .dragging img {
+  pointer-events: none;
+}
+.wrapper .carousel1 img {
+  height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 14px;
+  width: 33.3333333333%;
+}
+.wrapper .carousel1 img:first-child {
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    margin-left: 20px;
+  }
+  .carousel1 img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .wrapper {
+    margin-left: 20px;
+  }
+  .carousel1 img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=sliderstyle.css.map */

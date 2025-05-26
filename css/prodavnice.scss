@@ -1,0 +1,92 @@
+$color_1: white;
+$color_2: #1d1a39;
+$color_3: #e8bcb9;
+$color_9: #F39F2A;
+$color_10: #ae445a;
+$color_11: #662549;
+$color_12: #451952;
+$background-color_1: #f39f5a;
+$background-color_2: #f5af5e;
+$background-color_3: #1d1a39;
+
+body {
+	background-image: linear-gradient($color_3,$color_9,$color_10,$color_11,$color_12,$color_13);
+	height: 5300px;
+}
+.velicina {
+	margin-top: 20px;
+}
+
+
+/*NAVIGACIONI BAR*/
+
+ul.navbar-nav {
+	>li {
+		>a {
+			letter-spacing: 0.2rem;
+			text-transform: uppercase;
+		}
+	}
+	>li.nav-item.dropdown {
+		>.dropdown-menu {
+			>li {
+				>a {
+					letter-spacing: 0.15rem;
+				}
+			}
+		}
+	}
+}
+.navbar {
+	background-color: $background-color_1 !important;
+}
+.active {
+	background-color: $background-color_2 !important;
+	border-radius: 0.33rem !important;
+}
+/*ZAVRSETAK NAVIGACIONOG BARA*/
+
+
+/*Footer*/
+
+.primarna-pozadina-footer {
+	background-color: $background-color_3 !important;
+}
+footer {
+	text-align: center !important;
+	flex-shrink: 0;
+	margin-top: auto;
+	li {
+		a {
+			color: $color_1 !important;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+			letter-spacing: 0.2rem;
+			padding: 0.2rem;
+			transition: color 0.4s ease-in;
+		}
+	}
+	a {
+		color: $color_1;
+		text-align: center;
+		letter-spacing: 0.2rem;
+		text-transform: uppercase;
+		&:hover {
+			background-color: $background-color_2 !important;
+			color: $color_2 !important;
+			border-radius: 0.33rem !important;
+			transition: 1s;
+		}
+	}
+	p {
+		color: $color_1;
+		text-align: center;
+		letter-spacing: 0.2rem;
+		text-transform: uppercase;
+	}
+	ul {
+		text-align: center;
+	}
+}
+/*ZAVRSETAK CSS ZA FOOTER*/

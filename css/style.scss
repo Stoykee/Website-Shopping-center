@@ -1,0 +1,250 @@
+$color_1: black;
+$color_2: #323232;
+$color_3: #e8bcb9;
+$color_4: white;
+$color_5: #1d1a39;
+$color_6: #fff;
+$color_7: #000000;
+$color_8: #424242;
+$color_9: #F39F2A;
+$color_10: #ae445a;
+$color_11: #662549;
+$color_12: #451952;
+$color_13: #1d1a39;
+$background-color_1: #fff;
+$background-color_2: #f39f5a;
+$background-color_3: #f5af5e;
+$background-color_4: transparent;
+$background-color_5: #5A3161;
+$background-color_6: #1d1a39;
+
+
+
+
+.body-za-boju {
+	background-color: $background-color_1 !important;
+}
+body {
+	height: 1950px !important;
+	background-image: linear-gradient($color_3,$color_9,$color_10,$color_11,$color_12,$color_13);
+}
+ul.navbar-nav {
+	>li {
+		>a {
+			letter-spacing: 0.2rem;
+			text-transform: uppercase;
+		}
+	}
+	>li.nav-item.dropdown {
+		>.dropdown-menu {
+			>li {
+				>a {
+					letter-spacing: 0.15rem;
+				}
+			}
+		}
+	}
+}
+.navbar {
+	background-color: $background-color_2 !important;
+}
+section {
+	margin-top: 2rem;
+}
+.list-unstyled {
+	li.bottom-border-red {
+		padding: 1.5rem;
+		border-bottom: 1px solid #000000;
+	}
+	li {
+		a {
+			text-decoration: none;
+			color: $color_1;
+			&:hover {
+				color: $color_2;
+			}
+		}
+	}
+}
+.my-unstyled-list {
+	list-style: none;
+}
+.primarna-boja-slova {
+	.primarna-boja-slova {
+		a {
+			color: $color_3 !important;
+		}
+	}
+}
+.active {
+	background-color: $background-color_3 !important;
+	border-radius: 0.33rem !important;
+	&:hover {
+		background-color: $background-color_4 !important;
+	}
+}
+.social-icon {
+	&:hover {
+		background-color: $background-color_5 !important;
+		border-radius: 50% !important;
+	}
+}
+input {
+	box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 25);
+}
+/*Footer*/
+.primarna-pozadina-footer {
+	background-color: $background-color_6 !important;
+}
+footer {
+	li {
+		a {
+			color: $color_4 !important;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+			letter-spacing: 0.2rem;
+			padding: 0.2rem;
+			transition: color 0.4s ease-in;
+		}
+	}
+	a {
+		&:hover {
+			background-color: $background-color_3 !important;
+			color: $color_5 !important;
+			border-radius: 0.33rem !important;
+			transition: 1s;
+		}
+		color: $color_4;
+		text-align: center;
+		letter-spacing: 0.2rem;
+		text-transform: uppercase;
+	}
+	p {
+		color: $color_4;
+		text-align: center;
+		letter-spacing: 0.2rem;
+		text-transform: uppercase;
+	}
+	text-align: center !important;
+	flex-shrink: 0;
+	margin-top: auto;
+	ul {
+		text-align: center;
+	}
+}
+/*ZAVRSETAK CSS ZA FOOTER*/
+address {
+	a {
+		color: $color_6 !important;
+		text-decoration: none;
+	}
+}
+.container {
+	margin: 0 auto;
+	width: 950px;
+}
+.btn-primary {
+	--bs-btn-color: $color_6;
+	--bs-btn-bg: $color_8;
+	--bs-btn-border-color: $color_8;
+	--bs-btn-hover-color: $color_6;
+	--bs-btn-hover-bg: $color_9;
+	--bs-btn-hover-border-color: $color_9;
+}
+.slika {
+	width: 800px;
+	height: 850px;
+}
+.okvir-teksta {
+	position: absolute;
+	border-radius: 0.33rem;
+	background: rgba(0, 0, 0, 0.6);
+	color: $color_4;
+	bottom: 50px;
+	right: 400px;
+	left: 400px;
+	padding: 10px;
+}
+.okvir-teksta1 {
+	border-radius: 0.33rem;
+	background: rgba(0, 0, 0, 0.4);
+	color: $color_4;
+	bottom: 50px;
+	right: 400px;
+	left: 350px;
+	padding: 10px;
+}
+.stil-slova {
+	text-transform: uppercase;
+}
+.slide {
+	width: 1600px;
+	height: 850px;
+	margin-left: 150px;
+}
+.okvir-teksta2 {
+	border-radius: 0.33rem;
+	background: rgba(0, 0, 0, 0.4);
+	color: $color_4;
+	bottom: 50px;
+	right: 400px;
+	left: 350px;
+	padding: 10px;
+	width: 250px;
+}
+.okvir-teksta3 {
+	border-radius: 0.33rem;
+	background: rgba(0, 0, 0, 0.4);
+	color: $color_4;
+	bottom: 50px;
+	right: 400px;
+	left: 350px;
+	padding: 10px;
+	width: 450px;
+}
+.okvir-teksta4 {
+	border-radius: 0.33rem;
+	background: rgba(0, 0, 0, 0.4);
+	color: $color_4;
+	bottom: 50px;
+	right: 400px;
+	left: 350px;
+	padding: 10px;
+	width: 450px;
+}
+.logo-onama {
+	border-radius: 0.33rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+div {
+	button {
+		a {
+			text-decoration: none;
+			color: $color_7;
+		}
+	}
+}
+.hover1 {
+	&:hover {
+		color: $color_6;
+	}
+}
+.okvir-teksta5 {
+	border-radius: 0.33rem;
+	background: rgba($color: #000000, $alpha: 0.4);
+	color: $color_4;
+	bottom: 50px;
+	right: 400px;
+	left: 350px;
+	padding: 10px;
+	width: 620px;
+	margin-bottom: 10px;
+	height: 100px;
+	margin-left: 10px;
+}
+.izgledTeksta {
+	font-size: 18px;
+}

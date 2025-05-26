@@ -1,0 +1,104 @@
+body {
+  background-image: linear-gradient(#e8bcb9, #F39F2A, #ae445a, #662549, #451952, #1d1a39);
+}
+
+.container {
+  margin: 0 auto;
+  width: 950px;
+}
+
+ul.navbar-nav > li > a {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+ul.navbar-nav > li.nav-item.dropdown > .dropdown-menu > li > a {
+  letter-spacing: 0.15rem;
+}
+
+.navbar {
+  background-color: #f39f5a !important;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+.list-unstyled li.bottom-border-red {
+  padding: 1.5rem;
+  border-bottom: 1px solid #000000;
+}
+.list-unstyled li a {
+  text-decoration: none;
+  color: black;
+}
+.list-unstyled li a:hover {
+  color: #323232;
+}
+
+.my-unstyled-list {
+  list-style: none;
+}
+
+.primarna-boja-slova .primarna-boja-slova a {
+  color: #e8bcb9 !important;
+}
+
+.active {
+  background-color: #f5af5e !important;
+  border-radius: 0.33rem !important;
+}
+.active:hover {
+  background-color: transparent !important;
+}
+
+.social-icon:hover {
+  background-color: #5A3161 !important;
+  border-radius: 50% !important;
+}
+
+input {
+  box-shadow: 0 0 0 0.25rem rgb(13, 110, 253);
+}
+
+/*Footer*/
+.primarna-pozadina-footer {
+  background-color: #1d1a39 !important;
+}
+
+footer {
+  text-align: center !important;
+  flex-shrink: 0;
+  margin-top: auto;
+}
+footer li a {
+  color: white !important;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding: 0.2rem;
+  transition: color 0.4s ease-in;
+}
+footer a {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+footer a:hover {
+  background-color: #f5af5e !important;
+  color: #1d1a39 !important;
+  border-radius: 0.33rem !important;
+  transition: 1s;
+}
+footer p {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+footer ul {
+  text-align: center;
+}
+
+/*ZAVRSETAK CSS ZA FOOTER*//*# sourceMappingURL=poklonKartica.css.map */
