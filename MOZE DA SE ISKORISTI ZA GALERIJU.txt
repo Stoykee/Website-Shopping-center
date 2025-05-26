@@ -1,0 +1,56 @@
+HTML ZA GALERIJU
+
+<div class="photo-gallery">
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="./Slike/office.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="./Slike/office.jpg" alt="kancelarija1">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="./Slike/office1.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="./Slike/office1.jpg" alt="kancelarija1">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="./Slike/office2.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="./Slike/office2.jpg" alt="kancelarija1">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="./Slike/office3.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="./Slike/office3.jpg" alt="kancelarija1">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item">
+                    <a href="./Slike/office4.jpg" data-lightbox="photos">
+                        <img class="img-fluid" src="./Slike/office4.jpg" alt="kancelarija1">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+CSS ZA GALERIJU
+
+.photo-gallery{
+  color: #313437;
+  background-color: #fff;
+}
+.photo-gallery .photos{
+  padding-bottom: 20px;
+}
+.photo-gallery .item{
+  padding-bottom: 30px;
+}
+
+JavaScript ZA GALERIJU
+
+<script src="js/lightbox.min"></script>
+      <script src="js/lightbox-plus-jquery.min.js"></script>
+      <script>
+        lightbox.option({
+          'resizeDuration': 200,
+          'wrapAround': true,
+          'albumLabel': "Slika %1 od %2"
+        })
+      </script>

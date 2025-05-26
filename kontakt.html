@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pomocu kontakt strane mozete nas kontaktirati ukoliko imate neko pitanje ">
+    <meta name="keywords" content="kontakt, pitanje, poslati">
+    <meta name="autor" content="Uros Stojnic, urosnrt622@gs.viser.edu.rs">
+
+    <title>Kontakt</title>
+    <link rel="icon" href="img/logor.ico" type="image/icon type">
+    <link href="./css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head> 
+    <body style="overflow: hidden; height: 1080px;">  
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="./img/logor.png" alt="TCArandjelovac - LOGO" height="70" width="70" style="float: left;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Početna</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galerija.html">Galerija</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="prodavnice.html">Prodavnice</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="poklonKartica.html">Poklon kartica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="kontakt.html">Kontakt</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="anketa.html">Anketa</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-5">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/?locale=sr_RS"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://twitter.com/"><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <p></p>
+      
+      <div class="container">
+        <h2>Kontakt</h2>
+        <hr>
+        <div class="row">
+        <div class="col-md-6">
+          <form method="post" action="izlaznaStrana.html">
+            <div class="mb-3">
+                <label for="imePrezime" class="form-label"><i class="fa-solid fa-user"></i> Ime i prezime</label>
+                <input type="text" class="form-control" id="imePrezime" aria-describedby="imePrezimeHelp" placeholder="Unesite ime i prezime" required>
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"><i class="fa-solid fa-envelope"></i> Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Unesite email" required>
+            </div>
+            <div class="mb-3">
+                <label for="telefon" class="form-label"><i class="fa-solid fa-phone"></i> Telefon</label>
+                <input type="tel" class="form-control" id="telefon" placeholder="Unesite telefon" required>
+              </div>
+              <div class="mb-3">
+                <label for="naslovPoruke" class="form-label"><i class="fa-solid fa-comment"></i> Naslov poruke</label>
+                <input type="text" class="form-control" id="naslovPoruke" placeholder="Unesite naslov poruke" required>
+              </div>
+              <div class="mb-3">
+                <label for="poruka" class="form-label"><i class="fa-solid fa-message"></i> Poruka</label>
+                <textarea class="form-control"row="5" placeholder="Unesite poruku" required></textarea>
+              </div>
+              <div class="d-grid gap-2">
+                
+                <button type="submit" class="btn btn-outline-light" style="width: 100%;"><i class="fa-solid fa-paper-plane" ></i> Posalji</button>
+  
+              </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+            <ul class="list-unstyled">
+                <li class="bottom-border-red">
+                  <i class="fa-solid fa-location-dot"></i> Adresa: <span class="float-end">Zanatlijska 112</span>
+                </li>
+                <li class="bottom-border-red">
+                  <i class="fa-solid fa-phone-volume"></i> Telefon: <span class="float-end"><a href="tel:+381621234567">+381 62 1234567</a></span>
+                </li>
+                <li class="bottom-border-red">
+                  <i class="fa-solid fa-at"></i> E-mail: <span class="float-end"><a href="mailto:kontakt@TCArandjelovac.rs">kontakt@TCArandjelovac.rs</a></span>
+                </li>
+            </ul>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1200.5323646414531!2d20.586641932331815!3d44.30248215582057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47574cde7fb706e1%3A0xf8a1b74230f71bc9!2z0JfQsNC90LDRgtC70LjRmNGB0LrQsCAxMTIsINCQ0YDQsNC90ZLQtdC70L7QstCw0YY!5e0!3m2!1ssr!2srs!4v1712421110206!5m2!1ssr!2srs" width="100%" height="255" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+      </div>
+      <footer class=" primarna-pozadina-footer primarna-boja-pozadine " style="width: 100%; bottom: 0; left: 0; position: fixed;">
+        <div class="row text-center container-fluid">
+          <div class="col-md-12">
+            <ul class="list-inline pt-2">
+              <li class="list-inline-item">
+                <a href="galerija.html">Galerija</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="poklonKartica.html">Kartice</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="anketa.html">Anketa</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="kontakt.html">Kontakt</a>
+              </li>
+            </ul>
+            <p><i class="fa-solid fa-copyright"> 2024.  TC Arandjelovac</i> , Zanatlijska 112, Arandjelovac, 
+              <a href="mailto:kontakt@BodyForge.rs"> kontakt@TCArandjelovac.rs </a>, <a href="tel:+381621234567"> +381 62 1234567 </a></p>
+          </div>
+        </div>
+      </footer>
+        <script src="./js/bootstrap.bundle.min.js" ></script>
+    </body>
+</html>
+

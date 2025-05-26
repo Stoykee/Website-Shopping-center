@@ -1,0 +1,74 @@
+<!--<section id="thumnails">
+        <div class="container text-center col-6">
+          <div class="row">
+            <div class="col-md-4 velicinaLaptop">
+              <div class="card" >
+                <img src="./img/devojkaOpisTeretane.webp"  height="250" width="100" class="card-img-top velicinaLaptopSlika" alt="O nasoj teretani..">
+                <div class="card-body">
+                  <h5 class="card-title">O nasoj teretani >></h5>
+                  <p class="card-text">Dobrodošli u našu izuzetnu teretanu, gde snaga postaje navika, a zdravlje postaje način života!
+                    Za detaljniji opis posetite link ispod!</p>
+                  <a href="onama.html" class="btn btn-primary">Detaljnije >></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 velicinaLaptop2">
+              <div class="card">
+                <img src="./img/oprema.png" height="250" width="100" class="card-img-top velicinaLaptopSlika" alt="Oprma u teretani...">
+                <div class="card-body">
+                  <h5 class="card-title">Opremljenost>></h5>
+                  <p class="card-text">Naša teretana je opremljena najsavremenijim i raznovrsnim spravama koje zadovoljavaju potrebe svih vežbača.</p>
+                  <a href="oprema.html" class="btn btn-primary">Detaljnije >></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 velicinaLaptop1">
+              <div class="card">
+                <img src="./img/lokacija.jpg" height="250" width="100" class="card-img-top velicinaLaptopSlika" alt="Nase lokacije teretana...">
+                <div class="card-body">
+                  <h5 class="card-title">Lokacije nasih lokala >></h5>
+                  <p class="card-text">Naša teretana se ponosi svojim povlašćenim lokacijama koje su prilagođene vašem načinu života. Posetite nas.</p>
+                  <a href="lokacijeTeretana.html" class="btn-boja btn btn-primary">Detaljnije >></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</section>
+      
+      <p></p>
+      <div class="container">
+      <div class="card mb-3 velicinaLaptop3" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./img/faq.jpg" class="img-fluid rounded-start manjaVelicina" alt="FAQ-slika" style="width: 600px; height: 200px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Cesto postavljena pitanja!</h5>
+              <p class="card-text">Klikom na gme ispod mozete pogledti neka od cestih pitanja koja nam ostali korisnici postavljaju! 
+                Nadamo se da cete dobiti odgovore na Vasa pitanja! Ako imate druga pitanja pogledajte odeljak ispod!</p>
+                <a href="faq.html" class="btn-boja btn btn-primary" style="float: right; margin-bottom: 10px;">Cesto postavljena pitanja! >></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 velicinaLaptop4" >
+        <div class="row g-0">
+         
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Kontaktirajte nas</h5>
+              <p class="card-text">Ako ima neke nedoumice mozete nas kontaktirati putem dugmeta ispod!
+                Odgovoricemo Vam u najbrzem mogucem roku!
+              </p>
+              <a href="kontakt.html" class="btn-boja btn btn-primary">Kontakt >></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="./img/kontakt1.jpg" class="img-fluid rounded-start manjaVelicina1" alt="kontakt-slika" style="width: 100%; height: 170px;" >
+          </div>
+        </div>
+      </div>
+    
+    </div>-->
